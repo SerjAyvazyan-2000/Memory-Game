@@ -1,0 +1,69 @@
+
+.card {
+  width            : 210px;
+  height           : 180px;
+  box-shadow       : 3px 3px 10px 3px white;
+  background-color : #2D2F33;
+  border-radius    : 20px;
+  display          : flex;
+  align-items      : center;
+  transform        : rotateY(180deg);
+  transition       : transform 0.3s;
+  justify-content  : center;
+  animation        : 2s card linear;
+  cursor           : pointer;
+
+  @keyframes card {
+    0% {
+      transform : rotate(0);
+    }
+
+    100% {
+      transform : rotateY(180deg);
+    }
+  }
+
+}
+
+.car .active {
+  transform : rotateY(0);
+}
+
+.card img {
+  width         : 90%;
+  height        : 90%;
+  border-radius : 20px;
+  transform     : scale(0);
+  animation     : 2s cardImg linear;
+  transition    : transform 0.3s;
+
+
+  @keyframes cardImg {
+    0% {
+      transform : scale(1);
+    }
+
+    100% {
+      transform : scale(0);
+    }
+  }
+
+}
+
+.card.active {
+  transform : rotateY(0);
+}
+
+.card.failed {
+  background-color : red;
+}
+
+.card.match {
+  background-color : green;
+}
+
+.card.active img {
+  transform : scale(1);
+
+}
+
