@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Memory-Game/static/css/main.65221321.css",
-    "main.js": "/Memory-Game/static/js/main.51265641.js",
+    "main.js": "/Memory-Game/static/js/main.a72b98c3.js",
     "static/js/787.28cb0dcd.chunk.js": "/Memory-Game/static/js/787.28cb0dcd.chunk.js",
     "static/media/venus.jpeg": "/Memory-Game/static/media/venus.45ad1082a969628f98b9.jpeg",
     "static/media/uranusName.jpeg": "/Memory-Game/static/media/uranusName.af9c29f684f287e126f9.jpeg",
@@ -17,11 +17,11 @@
     "static/media/earthName.jpeg": "/Memory-Game/static/media/earthName.64303b7d39e1f7346575.jpeg",
     "index.html": "/Memory-Game/index.html",
     "main.65221321.css.map": "/Memory-Game/static/css/main.65221321.css.map",
-    "main.51265641.js.map": "/Memory-Game/static/js/main.51265641.js.map",
+    "main.a72b98c3.js.map": "/Memory-Game/static/js/main.a72b98c3.js.map",
     "787.28cb0dcd.chunk.js.map": "/Memory-Game/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65221321.css",
-    "static/js/main.51265641.js"
+    "static/js/main.a72b98c3.js"
   ]
 }
