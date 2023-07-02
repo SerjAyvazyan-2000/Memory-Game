@@ -129,8 +129,11 @@ const Cards = () => {
   }
 
 
-  console.log(planet)
+
   const handleClick = (index) => {
+    if(count === 0){
+       alert("վայ , արդեն փորդում ես ՞ շատ լավ , կսպասեմ ձեր գնահատականին օրիօրդ")
+    }
     if (!planet[index].state) {
       if (checked === -1) {
         setChecked(index)

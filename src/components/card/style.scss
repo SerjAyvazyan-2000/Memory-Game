@@ -22,7 +22,14 @@
       transform : rotateY(180deg);
     }
   }
-
+@media screen and (max-width: 455px){
+  width            : 80px;
+  height           : 80px;
+}
+  @media screen and (max-width: 655px){
+    width            : 100px;
+    height           : 100px;
+  }
 }
 
 .car .active {

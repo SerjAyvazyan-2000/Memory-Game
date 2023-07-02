@@ -32,6 +32,11 @@
     padding: 10px;
     border-radius: 20px;
     font-size: 30px;
+
+    @media screen and (max-width: 455px){
+      font-size: 20px;
+
+    }
   }
 }
 .container{
