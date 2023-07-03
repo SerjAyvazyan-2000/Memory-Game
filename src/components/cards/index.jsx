@@ -131,9 +131,7 @@ const Cards = () => {
 
 
   const handleClick = (index) => {
-    if(count === 0){
-       alert("վայ , արդեն փորդում ես ՞ շատ լավ , կսպասեմ ձեր գնահատականին օրիօրդ")
-    }
+
     if (!planet[index].state) {
       if (checked === -1) {
         setChecked(index)
@@ -152,7 +150,7 @@ const Cards = () => {
 
   return <>
     <div style={{backgroundImage: `url(${planets})`}} className="wrapper">
-      <h1> Welcome Memory Game</h1>
+      <h1> Բարի գալուստ հիշողության խաղ Մարիամ ջան</h1>
       <div className="memory-container">
         <div className="header-title">
           <p>Number of moves: {count}</p>
